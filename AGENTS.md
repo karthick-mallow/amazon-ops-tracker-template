@@ -103,7 +103,7 @@ conversation.
 2. **Page.** Write `activities/ACT-NNN.md` from `TEMPLATE.md`: eight sections, same headings, same
    order; empty sections read `Not applicable — <reason>`. In the header, record **AI Tool** (your
    app's name, e.g. Claude, Codex, Grok, Cursor), **AI Model** (your exact model name, e.g.
-   Claude Opus 5.5), **User**, **Mode**, **Data Source**, and how it was logged (automatically,
+   Claude Opus 5.5), **Executed By** (the User), **Mode**, **Data Source**, and how it was logged (automatically,
    with approval, or by a scheduled task's instructions).
    Include the tools called or reports used, date range, snapshot time (UTC), the numbers that
    mattered, decisions, and for a change the exact before → after values.
@@ -140,8 +140,9 @@ new Review activity; in the original row update Status and Follow-up in place; a
 **An older tracker** (header without `AI tool` / `AI model` / `User` / `Mode`, or with
 `KwickMetrics focus` and no `Data source`): before writing, bring the header up to date in the same
 commit — add `AI tool` and `AI model` after `Date (UTC)`, `User` and `Mode` after `AI model`,
-rename `KwickMetrics focus` to `Focus`, add `Data source` after it — and fill `Not recorded` in the
-new columns for older rows. If `config.md` has no **Users** section, add it above **Goals and
+rename `KwickMetrics focus` to `Focus`, add `Data source` after it — and fill the new columns for
+older rows with `unknown` for `User` / `Mode` (`Not recorded` for the others). Never guess values
+for old rows. If `config.md` has no **Users** section, add it above **Goals and
 preferences** with the owner's row. Change nothing else in old rows.
 
 ## 5. Several AI tools, one memory

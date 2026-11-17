@@ -2,9 +2,9 @@
 
 * Brand: <brand or account name | All>
 * Marketplace: <amazon domain>
+* Executed By: <user's name — same value as the tracker's User column>
 * AI Tool: <e.g. Claude, Codex, Grok, Cursor>
 * AI Model: <exact model name, e.g. Claude Opus 5.5>
-* User: <name of the person who asked for or approved the work | for Schedule: who set up the scheduled task>
 * Mode: <Chat | Voice | Schedule>
 * Logged: <Automatically (change via <tool name>) | With the seller's approval | By the scheduled task's instructions>
 * Focus: <PPC | SEO | Inventory | Financials | Buy Box | Listings | Pricing | Returns>
